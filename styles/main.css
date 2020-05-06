@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: white;
+    background-image:none !important;
+}
+.slideshow__slides img {
+    width: 100%;
+    height: auto;
+}
+.slideshow__slides {
+    display: none;
+}
+.slideshow {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow__arrow_prev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ff6a66 !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+}
+.slideshow__arrow_next {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ff6a66 !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px 0px 0px 50px;
+}
+.slideshow__arrow_prev:hover, .slideshow__arrow_next:hover {
+    background-color: #47cdc6;
+    cursor: pointer;
+}
+#slideshow__slides_caption1, #slideshow__slides_caption2, #slideshow__slides_caption3 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.button {
+    background-color: #ff6a66;
+    box-shadow: 0 5px 0 #c64d56;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.loginscreen__user {
+    padding-top:3em;
+    padding-bottom:5em;
+    font-weight: bold;
+}
+.loginscreen__user a:first-child {
+    margin-right:2em;
+}
+.loginscreen__user a:hover {
+    color:#47cdc6;
+    text-decoration: none;
+}
+.loginscreen__icon {
+    width:8%;
+    height:auto;
+    margin:1em;
+}
+.loginscreen {
+    text-align:center;
+    background-color:#47cdc6;
+}
+.loginscreen__caption_text {
+    padding:1em;
+    font-weight: bold;
+    font-size:2em;
+    color:white;
+    text-shadow:0px 3px #27968e;
+}
+#slideshow__slides_caption1, #slideshow__slides_caption2, #slideshow__slides_caption3{
+    font-size:2em;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:3em;
+    text-align:left;
+}
+#slideshow__slides_caption1, #slideshow__slides_caption3 {
+    text-align:right;
+}
+#slideshow__slides_caption2 {
+    text-align:left;
+    padding-top:10em;
+}
+.slideshow__slides a{
+    font-style: oblique;
+    color: white;
+    font-weight: normal !important;
+    text-transform: none !important;
+}
+

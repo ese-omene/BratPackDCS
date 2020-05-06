@@ -1,0 +1,191 @@
+#logo {
+    display: block;
+    height: auto;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:3em;
+}
+nav ul li {
+text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+.container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align:center;
+    margin-top:3em;
+    margin-bottom:3em;
+    padding-top:1em;
+    padding-bottom:1em;
+    min-height: 100%;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+footer {
+    background-color: white;
+    text-align:center;
+    padding:1.5em;
+    color:#27968e;
+    font-weight: bold;
+    width:100%;
+
+}
+header {
+    background-color: white;
+}
+h1 {
+    color: #27968e;
+}
+.public_contact {
+    text-align:center;
+    padding:1em;
+}
+.btn.btn-sub {
+    background-color: #ff6a66;
+    color:white;
+}
+.btn.btn-sub:hover, .btn.btn-sub:active {
+    background-color: #e6615d;
+    color:white;
+}
+.btn.btn-back {
+    background-color: #27968e;
+    color:white;
+}
+.btn.btn-back:hover, .btn.btn-back:active {
+    background-color: #267d75;
+    color:white;
+}
+.btn.btn-up {
+    background-color: #9acc12;
+    color:white;
+}
+.btn.btn-up:hover, .btn.btn-up:active {
+    background-color: #7eaf12;
+    color:white;
+}
+.btn.btn-del {
+    background-color: #c64d56;
+    color:white;
+}
+.btn.btn-del:hover, .btn.btn-del:active {
+    background-color: #9f4c51;
+    color:white;
+}
+.thead-cust {
+    background-color: #556272;
+    color:white;
+    border-radius: 10px;
+}
+/* Navigation */
+#main__nav ul {
+    text-align:center;
+    margin-top:3em;
+    margin-bottom:0;
+}
+#main__nav li {
+    background-color: #ff6a66;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    padding-left:2em;
+    padding-right:2em;
+    margin-right:2em;
+    border-radius: 10px 10px 0px 0px;
+}
+#main__nav li a {
+    color:white;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main__nav li:hover {
+    background-color: #e6615d;
+}
+.dropdown-item {
+    color:#556272 !important;
+}
+.dropdown-item:hover {
+    background-color: #47cdc6;
+}
+/* Log in form */
+#login__form {
+    max-width: 35%;
+    background-color: #47cdc6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:3em;
+    margin-bottom:3em;
+}
+.mb-4 {
+    margin-top:1em;
+}
+.login__form_input {
+    margin-bottom:1em;
+}
+.icons {
+    margin-top:1em;
+    margin-bottom:1em;
+}
+/* Form container */
+.container__public {
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin:auto;
+    text-align:center;
+    margin-top:3em;
+    margin-bottom:3em;
+    padding-top:1em;
+    padding-bottom:1em;
+    width:500px;
+}
+.hideForm {
+    display:none;
+}
+
+/* Modal for Calendar*/
+.modal-cal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content-cal {
+    background-color: #c5ece9;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+}
+.close-cal {
+    color: #c64d56;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close-cal:hover,
+.close-cal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#eventInfo {
+    font-weight: bold;
+}
+/* Calendar buttons */
+#calendar button {
+    background-color: #47cdc6;
+    font-weight:bold;
+}
+#calendar .fc-state-default {
+    background-image: linear-gradient(to bottom, #69d5cf, #38c0b9);
+}

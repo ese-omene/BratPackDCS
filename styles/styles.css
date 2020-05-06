@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/children-sharing-and-playing-with-toys.jpg");
+    background-size: cover;
+}
+
+#login__form {
+    max-width: 35%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* ----- Staff Directory CSS ----- */
+.staff__dropdown_link {
+    padding-left: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+a.staff__dropdown_link:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.staff__container{
+    border: solid lightgray 1px;
+    height: 425px;
+    width: 300px;
+    background: white;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.staff__container_photo{
+    max-width: 99%;
+}
+.staff__container_info{
+    padding: 15px;
+}
+
+/* ---------- Disable Select ---------- */
+
+select[disabled]{
+    -webkit-appearance: none;
+}
+
+/* Layout Styles */
+.fullpg {
+    padding-bottom: 20px;
+}
+
+form {
+    padding: 5px 0;
+    margin-top: 5px;
+}
